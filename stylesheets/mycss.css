@@ -1,0 +1,282 @@
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+
+@media(max-width: 1920px) {
+
+    .textDesc {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+     .textBold{
+          font-size: 1.5em;
+        padding: 2px;
+        margin: 15px;
+    }
+}
+@media(max-width: 980px) {
+
+    .textDesc {
+        font-size: 0.5em;
+        padding: 5px;
+    }
+  .textBold{
+        font-size: 1.2em;
+        padding: 5px;
+
+    }
+}
+/*nav panel style*/
+.panel-default{
+    border: 0px;
+    border-radius: 0px;
+}
+.panel-body{
+    padding: 0px;
+}
+.panel-heading{
+ background-color:#fff;
+    border: 0px;
+    padding: 0px;
+    margin:0px;
+}
+.mainNav{
+  width: 20%;
+    height: 100%;
+    margin-right: 5px;
+    float: left;
+     clear: both;
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+}
+.mainNav h4{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+font-size: 0.8em;
+color: #000;
+}
+ h2{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+
+color: #2476ff;
+}
+h5{
+  font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+padding: 20px 10px 10px 10px;
+}
+.mainNavSA{
+          color: #2476ff;
+}
+.mainNavA{
+font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding-left: 15px;
+     font-size: 0.8em;
+        
+}
+.mainCon{
+    width: 79%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+.mainBack_box{
+    background: #fff;
+    margin: 0px;
+ 
+}
+.mainBody{
+    min-width: 450px;
+    color: #000000;
+    margin: 0px;
+    height: 100%;
+    /*background: url(../images/bg_body.png) left top repeat;*/
+}
+
+footer
+{
+    background: #005977;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+
+}
+footer h4
+{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff;
+}
+.maincontainer {
+
+width: 100%;
+overflow: auto;
+position: absolute;
+top: 155px;
+bottom: 25px;
+
+padding: 10px;
+min-height: 250px;
+min-width: 600px;
+background: #fff;
+}
+.secName{ 
+font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 10px 0 10px;
+      text-align: center;
+}
+
+.secDesc{ 
+ font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    font-style: italic;
+      white-space: pre-wrap;
+}
+.textBold{ 
+ 
+font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    white-space: pre-wrap;
+    color: #fff;
+
+}
+.centerImage{
+    height: auto;
+    z-index: 3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/*table*/
+thead{
+  background:#005977;
+  color:#FFF;
+  font-family: 'PT Sans', sans-serif;
+
+     font-size:0.9em;
+     font-weight: 400;
+}
+table, th, td {
+  /* border: 1px solid black;*/
+word-wrap:break-word;
+}
+td{
+  font-family: 'PT Sans', sans-serif;
+
+     font-size:0.8em;
+
+}
+.litRow{
+    max-width: 5%;
+   width:5%;
+    min-width:60px;
+}
+.odd{
+  background: #d0d0d0;
+}
+.indexed{
+   font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.ngdialog-theme-plain .ngdialog-content{
+    white-space: pre-wrap;
+}
+.langList li{
+display: inline;
+list-style-type: none;
+padding: 5px;
+}
+.ui-match { background: yellow; }

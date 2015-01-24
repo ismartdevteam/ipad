@@ -1,0 +1,55 @@
+<html ng-app="MyAdmin">
+<head>
+  <title>Монгол Улсын Гаалийн Ерөнхий Газар</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <link rel="shortcut icon" type="../image/png" href="../images/favicon.jpg" />
+  <meta name="author" content="Mongolian Customs">
+  <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="../stylesheets/mycss.css" rel="stylesheet">
+  <link href="../stylesheets/admin.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheets/ngDialog.css">
+  <link rel="stylesheet" href="../stylesheets/ngDialog-theme-default.css">
+  <link rel="stylesheet" href="../stylesheets/ngDialog-theme-plain.css">
+  <link rel="stylesheet" href="../stylesheets/ng-table.css">
+  <!-- Custom Fonts -->
+  <link href="../font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body class="mainBody">
+  <div class="row" style="margin:0;background:#005977">
+    <img src="../images/mongoliin_gaali_white.png" style="width:90px;float:left;padding-top:5px;"/>
+    <p class="textBold">Гаалийн Ерөнхий газар<br/>Тайлан</p>
+  </div>
+  <div  ng-view="BodyMM">
+    
+    
+  </div>
+  <script src="../javascripts/jquery-1.11.1.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../javascripts/bootstrap.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="../javascripts/jquery.easing.min.js"></script>
+  <script src="../javascripts/angular/angular.js"></script>
+  <script src="../javascripts/angular/angular-route.js"></script>
+  <script src="../javascripts/angular/angular-sanitize.js"></script>
+  <script src="../javascripts/ui-bootstrap.min.js"></script>
+  <script src="../javascripts/admin.js"></script>
+  <script src="../javascripts/angular/angular-cookies.js"></script>
+  <script src="../javascripts/ngDialog.js"></script>
+  <script src="../javascripts/ng-table.js"></script>
+
+  <script src="directives/loginDrc.js"></script>
+
+  <script src="../javascripts/ui-utils.js"></script>
+  <script src="../javascripts/ng-table-export.js"></script>
+  <script src="services/loginService.js"></script>
+  <script src="services/sessionService.js"></script>
+
+  <script src="../javascripts/angular-file-upload.js"></script>
+</body>
+
+</html>

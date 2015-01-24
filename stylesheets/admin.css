@@ -1,0 +1,33 @@
+.container{
+	width: 100%;
+}
+.expire{
+    background-color:rgba(199, 16, 16, 0.5)
+
+}
+.mainContainer{
+	top: 210px;
+}
+.descEditrow {
+	margin:0 auto;
+}
+.descEditrow h4{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+text-align: center;
+color: #000;
+}
+.descEditrow textarea{
+	font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+	text-align: top;
+		width:100%;
+		max-width: 100%;
+	   resize: none;
+}
+.quantity ul{
+	 padding: 0;
+    max-height: 8.5em; /* 1.5 x 3 */
+    overflow-y: auto;
+	 
+}

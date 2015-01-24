@@ -1,0 +1,39 @@
+ <div align="right" style="padding:10px;"> 
+   <a href="#/ADD"  class="btn btn-success" >Шинээр нэмэх</a></div>
+      <table ng-table="tableParams" class="table ng-table-responsive" show-filter="true"  >
+        <tr ng-repeat="obj in $data" ng-class="{ 'odd':$odd}" 
+       >
+            <td data-title="'Дугаар'"   width="100">
+            {{obj.id}}
+                </td>
+            
+                <td data-title="'Нэр'"width="400" filter="{ 'name': 'text' }"
+                ng-bind-html="obj.name| highlight:highText:false|highlight:tableParams.filter().name:false">
+          
+                </td>
+                <td data-title="'Оруулсан огноо'"width="200"class="text-center">
+                    {{obj.created_date}}
+                </td>
+                  <td  data-title="'Төрөл'"  width="95">
+                    {{obj.type}}
+                </td>
+                 
+                <td width="110" >
+                    <a class="btn btn-default btn-s"  ng-click="delete(obj.id)">Устгах</i></a>
+                  
+                </td>
+            </tr>
+        </table>
+
+
+
+          <script type="text/ng-template" id="modalDialogId">
+        <div class="ngdialog-message">
+            <p>Энэ мөрийг устгах уу?</p>
+   
+        </div>
+        <div class="ngdialog-buttons">
+            <button type="button" class="ngdialog-button btn-danger" ng-click="confirm(confirmValue)">Тийм</button>
+            <button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeThisDialog('button')">Болих</button>
+        </div>
+    </script>

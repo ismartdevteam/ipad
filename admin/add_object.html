@@ -1,0 +1,30 @@
+
+<div class="container" nv-file-drop="" uploader="uploader" filters="queueLimit, customFilter" >
+  	    	<!-- <a href="#/" class="btn btn-default" style="margin:15px;">Буцах</a> -->
+  	    	<h4>Шинээр тайлан, бичиг нэмэх</h4>
+<div class="row descEditrow" >
+
+<div class="col-xs-6 col-sm-3">
+<h4>Нэр</h4>
+</div>
+
+</div >
+<div class="row descEditrow" >
+<div class="col-md-8">
+	<textarea type="text"  rows="1" ng-model="object.name" >
+	</textarea>
+</div>
+
+<div class="col-md-4">
+<input type="file" nv-file-select="" uploader="uploader" />
+</div>
+</div >
+ <div class="progress" style="margin:10px 0px 10px 0px;">
+                                <div class="progress-bar progress-bar-success" role="progressbar" ng-style="{ 'width': uploader.progress + '%' }">{{uploader.progress}}%</div>
+                            </div>
+     <button type="button" class="btn btn-success btn-xs" ng-click="uploader.queue[0].upload()" ng-disabled="uploader.queue[0].isReady || uploader.queue[0].isUploading ">Нэмэх
+</button>
+
+
+                                  
+</div>
